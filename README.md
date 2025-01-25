@@ -18,7 +18,7 @@ Self Problems
 
 ----------------------------------------------------------------------------------------------------------------------
 Date:21-01-2025
-
+Topic:If-else and loops
 Level 1 Practice Programs
 
 1. Write a program to find the age of Harry if the birth year is 2000. Assume the Current Year is 2024
@@ -106,6 +106,33 @@ m0 = m + 12 × ((14 − m) / 12) − 2
 d0 = (d + x + 31m0 / 12) mod 7
 6. Write a program to create a calculator using switch...case.
 
+---------------------------------------------------------------------------------------------------------------------------------------------
+Date:23-01-2025
+Topic:Arrays
 
+Level-1
+1. Write a program to take user input for the age of all 10 students in a class and check whether the student can vote depending on his/her age is greater or equal to 18.
+2. Write a program to take user input for 5 numbers and check whether a number is positive,  negative, or zero. Further for positive numbers check if the number is even or odd. Finally compare the first and last elements of the array and display if they equal, greater or less
+3. Create a program to print a multiplication table of a number.
+4. Write a program to store multiple values in an array up to a maximum of 10 or until the user enters a 0 or a negative number. Show all the numbers as well as the sum of all numbers 
+5. Create a program to find the multiplication table of a number entered by the user from 6 to 9 and display the result
+6. Create a program to find the mean height of players present in a football team.
+7. Create a program to save odd and even numbers into odd and even arrays between 1 to the number entered by the user. Finally, print the odd and even numbers array
+8. Create a program to find the factors of a number taken as user input, store the factors in an array, and display the factors
+9. Working with Multi-Dimensional Arrays. Write a Java program to create a 2D Array and Copy the 2D Array into a single dimension array
+10. Write a program FizzBuzz, take a number as user input and if it is a positive integer loop from 0 to the number and save the number, but for multiples of 3 save "Fizz" instead of the number, for multiples of 5 save "Buzz", and for multiples of both save "FizzBuzz". Finally, print the array results for each index position in the format Position 1 = 1, …, Position 3 = Fizz,...
+
+Level-2
+
+1. Create a program to find the bonus of 10 employees based on their years of service and the total bonus amount the company Zara has to pay, along with the old and new salary.
+2. Create a program to find the youngest friends among 3 Amar, Akbar, and Anthony based on their ages and the tallest among the friends based on their heights
+3. Create a program to store the digits of the number in an array and find the largest and second largest element of the array.
+4. Rework the program 3, especially the Hint f where if index equals maxDigit, we break from the loop. Here we want to modify to Increase the size of the array i,e maxDigit by 10 if the index is equal to maxDigit. This is done to consider all digits to find the largest and second-largest number 
+5. Create a program to take a number as input and reverse the number. To do this, store the digits of the number in an array and display the array in reverse order
+6. An organization took up an exercise to find the Body Mass Index (BMI) of all the persons in the team. For this create a program to find the BMI and display the height, weight, BMI and status of each individual
+7. Rewrite the above program using multi-dimensional array to store height, weight, and BMI in 2D array for all the persons
+8. Create a program to take input marks of students in 3 subjects physics, chemistry, and maths. Compute the percentage and then calculate the grade  as per the following guidelines 
+9 .Rewrite the above program to store the marks of the students in physics, chemistry, and maths in a 2D array and then compute the percentage and grade
+10. Create a program to take a number as input find the frequency of each digit in the number using an array and display the frequency of each digit
 
 
