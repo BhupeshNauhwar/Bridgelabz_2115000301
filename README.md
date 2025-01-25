@@ -18,7 +18,7 @@ Self Problems
 
 ----------------------------------------------------------------------------------------------------------------------
 Date:21-01-2025
-Topic:If-else and loops
+Topic:Basic
 Level 1 Practice Programs
 
 1. Write a program to find the age of Harry if the birth year is 2000. Assume the Current Year is 2024
@@ -59,6 +59,8 @@ Sample Program 2 - Eric Travels from Chennai to Bangalore via Vellore. From Chen
 ----------------------------------------------------------------------------------------------------------------------
 
 Date: 22-01-2025
+
+Topic:If-else and loops
 
 Level-1 
 1. Write a program to check if a number is divisible by 5
@@ -108,6 +110,7 @@ d0 = (d + x + 31m0 / 12) mod 7
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 Date:23-01-2025
+
 Topic:Arrays
 
 Level-1
