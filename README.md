@@ -139,7 +139,7 @@ Level-2
 10. Create a program to take a number as input find the frequency of each digit in the number using an array and display the frequency of each digit
 ---------------------------------------------------------------------------------------------------------------------------------------------
 Date: 27-01-2025
-
+Topic: Array with mehtods
 Level-1
 
 1. Write a program to input the Principal, Rate, and Time values and calculate Simple Interest.
@@ -250,3 +250,108 @@ The Second for loop Displays the days of the month starting from 1 to the number
 Create a program to take input marks of students in 3 subjects physics, chemistry, and maths. Compute the total, average, and the percentage score 
 13. Write a program to perform matrix manipulation operations like addition, subtraction, multiplication, and transpose. Also finding the determinant and inverse of a matrix. The program should take random matrices as input and display the result of the operations.
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+Date:28-01-2025
+Topic:String
+
+String Practice Problems
+
+1. Write a Java program to count the number of vowels and consonants in a given string. 
+2. Write a Java program to reverse a given string without using any built-in reverse functions. 
+3. Write a Java program to check if a given string is a palindrome (a string that reads the same forward and backward). 
+4. Write a Java program to remove all duplicate characters from a given string and return the modified string. 
+5. Write a Java program that takes a sentence as input and returns the longest word in the sentence. 
+6. Write a Java program to count how many times a given substring occurs in a string. 
+7. Write a Java program to toggle the case of each character in a given string. Convert uppercase letters to lowercase and vice versa. 
+8. Write a Java program to compare two strings lexicographically (dictionary order) without using built-in compare methods. 
+9. Problem: 
+Write a Java program to find the most frequent character in a string. Example Input: 
+String: "success" 
+Expected Output: 
+Most Frequent Character: 's' 
+10. Write a Java program to remove all occurrences of a specific character from a string. Example Input: 
+String: "Hello World" 
+Character to Remove: 'l' 
+Expected Output: 
+Modified String: "Heo Word"
+11. Write a Java program that accepts two strings from the user and checks if the two strings are anagrams of each other (i.e., whether they contain the same characters in any order).
+12.  Write a replace method in Java that replaces a given word with another word in a sentence:
+
+Built-In Function Practice Problem
+Level-1
+
+1. Number Guessing Game:
+○ Write a Java program where the user thinks of a number between 1 and 100, and
+the computer tries to guess the number by generating random guesses.
+○ The user provides feedback by indicating whether the guess is high, low, or
+correct. The program should be modular, with different functions for generating
+guesses, receiving user feedback, and determining the next guess.
+2. Maximum of Three Numbers:
+○ Write a program that takes three integer inputs from the user and finds the
+maximum of the three numbers.
+○ Ensure your program follows best practices for organizing code into modular
+functions, such as separate functions for taking input and calculating the
+maximum value.
+3. Create a program that checks whether a given number is a prime number. ○
+The program should use a separate function to perform the prime check and
+return the result.
+4. Fibonacci Sequence Generator:
+○ Write a program that generates the Fibonacci sequence up to a specified number
+of terms entered by the user.
+○ Organize the code by creating a function that calculates and prints the Fibonacci
+sequence.
+5. Palindrome Checker:
+○ Write a program that checks if a given string is a palindrome (a word, phrase, or
+sequence that reads the same backward as forward).
+○ Break the program into functions for input, checking the palindrome condition,
+and displaying the result.
+6. Factorial Using Recursion:
+○ Write a program that calculates the factorial of a number using a recursive
+function.
+○ Include modular code to separate input, calculation, and output processes.
+7. GCD and LCM Calculator:
+○ Create a program that calculates the Greatest Common Divisor (GCD) and Least
+Common Multiple (LCM) of two numbers using functions.
+○ Use separate functions for GCD and LCM calculations, showcasing how modular
+code works.
+8. Temperature Converter:
+○ Write a program that converts temperatures between Fahrenheit and Celsius. ○
+The program should have separate functions for converting from Fahrenheit to
+Celsius and from Celsius to Fahrenheit.
+9. Basic Calculator:
+○ Write a program that performs basic mathematical operations (addition,
+subtraction, multiplication, division) based on user input.
+○ Each operation should be performed in its own function, and the program should
+prompt the user to choose which operation to perform.
+
+Level-2 
+1. Problem 1: Time Zones and ZonedDateTime Write a program that displays the current
+time in different time zones:
+➢ GMT (Greenwich Mean Time)
+➢ IST (Indian Standard Time)
+➢ PST (Pacific Standard Time)
+Hint: Use ZonedDateTime and ZoneId to work with different time zones.
+2. Problem 2: Date Arithmetic Create a program that:
+➢ Takes a date input and adds 7 days, 1 month, and 2 years to it.
+➢ Then subtracts 3 weeks from the result.
+Hint: Use LocalDate.plusDays(), plusMonths(), plusYears(), and
+minusWeeks() methods.
+3. 3. Problem 3: Date Formatting Write a program that:
+➢ Displays the current date in three different formats:
+■ dd/MM/yyyy
+■ yyyy-MM-dd
+■ EEE, MMM dd, yyyy
+
+Hint: Use DateTimeFormatter with custom patterns for date formatting.
+4. Problem 4: Date Comparison Write a program that:
+➢ Takes two date inputs and compares them to check if the first date is before, after,
+or the same as the second date.
+Hint: Use isBefore(), isAfter(), and isEqual() methods from the LocalDate
+----------------------------------------------------------------------------------------------
+
+Date:30-01-2025
+Topic:Class and Objects
+
+1. Write a program to create an Employee class with attributes name, id, and salary. Add a method to display the details.
+2. Write a program to create a Circle class with an attribute radius. Add methods to calculate and display the area and circumference of the circle.
+3.  Write a program to create a Book class with attributes title, author, and price. Add a method to display the book details.
