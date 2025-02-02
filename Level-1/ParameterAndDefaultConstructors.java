@@ -3,9 +3,9 @@ class Book{
     private String author;
     private float price;
     public Book(){
-        this.title="";
-        this.author="";
-        this.price=0.0f;
+        this.title="unknown";
+        this.author="unknown";
+        this.price=200;
 
     }
     public Book(String titile, String author, float price){
