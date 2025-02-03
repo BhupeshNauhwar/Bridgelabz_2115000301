@@ -347,11 +347,84 @@ Hint: Use DateTimeFormatter with custom patterns for date formatting.
 ➢ Takes two date inputs and compares them to check if the first date is before, after,
 or the same as the second date.
 Hint: Use isBefore(), isAfter(), and isEqual() methods from the LocalDate
-----------------------------------------------------------------------------------------------
-
+========================================================================================================
 Date:30-01-2025
 Topic:Class and Objects
 
 1. Write a program to create an Employee class with attributes name, id, and salary. Add a method to display the details.
 2. Write a program to create a Circle class with an attribute radius. Add methods to calculate and display the area and circumference of the circle.
 3.  Write a program to create a Book class with attributes title, author, and price. Add a method to display the book details.
+
+====================================================================================================
+
+Date:31/01/2025
+Topic: Constructors,Instance vs. Class Variables and Methods, Access Modifiers
+
+Level-1(Constructors)
+
+1. Create a Book class with attributes title, author, and price. Provide both default and parameterized constructors.
+2. Write a Circle class with a radius attribute. Use constructor chaining to initialize radius with default and user-provided values.
+3. Create a Person class with a copy constructor that clones another person's attributes.
+4. Hotel Booking System: Create a HotelBooking class with attributes guestName, roomType, and nights. Use default, parameterized, and copy constructors to initialize bookings.
+5. Library Book System: Create a Book class with attributes title, author, price, and availability. Implement a method to borrow a book.
+6. Car Rental System: Create a CarRental class with attributes customerName, carModel, and rent
+
+Instance vs. Class Variables and Methods
+
+1. Problem 1: Product Inventory
+Create a Product class with:
+Instance Variables: productName, price.
+Class Variable: totalProducts (shared among all products).
+Methods:
+An instance method displayProductDetails() to display the details of a product.
+A class method displayTotalProducts() to show the total number of products created.
+2. Problem 2: Online Course Management
+Design a Course class with:
+Instance Variables: courseName, duration, fee.
+Class Variable: instituteName (common for all courses).
+Methods:
+An instance method displayCourseDetails() to display the course details.
+A class method updateInstituteName() to modify the institute name for all courses.
+3. Problem 3: Vehicle Registration
+Create a Vehicle class to manage the details of vehicles:
+Instance Variables: ownerName, vehicleType.
+Class Variable: registrationFee (fixed for all vehicles).
+Methods:
+An instance method displayVehicleDetails() to display owner and vehicle details.
+A class method updateRegistrationFee() to change the registration fee.
+
+
+Access Modifiers
+
+1. Problem 1: University Management System
+Create a Student class with:
+rollNumber (public).
+name (protected).
+CGPA (private).
+Write methods to:
+Access and modify CGPA using public methods.
+Create a subclass PostgraduateStudent to demonstrate the use of protected members.
+2. Problem 2: Book Library System
+Design a Book class with:
+ISBN (public).
+title (protected).
+author (private).
+Write methods to:
+Set and get the author name.
+Create a subclass EBook to access ISBN and title and demonstrate access modifiers.
+Problem 3: Bank Account Management
+3. Create a BankAccount class with:
+accountNumber (public).
+accountHolder (protected).
+balance (private).
+Write methods to:
+Access and modify balance using public methods.
+Create a subclass SavingsAccount to demonstrate access to accountNumber and accountHolder.
+4. Problem 4: Employee Records
+Develop an Employee class with:
+employeeID (public).
+department (protected).
+salary (private).
+Write methods to:
+Modify salary using a public method.
+Create a subclass Manager to access employeeID and department.
