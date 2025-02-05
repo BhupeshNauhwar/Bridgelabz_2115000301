@@ -347,6 +347,7 @@ Hint: Use DateTimeFormatter with custom patterns for date formatting.
 ➢ Takes two date inputs and compares them to check if the first date is before, after,
 or the same as the second date.
 Hint: Use isBefore(), isAfter(), and isEqual() methods from the LocalDate  
+
 ---------------------------------------------------------------------------------------
 Date:30-01-2025
 Topic:Class and Objects
@@ -355,6 +356,7 @@ Topic:Class and Objects
 2. Write a program to create a Circle class with an attribute radius. Add methods to calculate and display the area and circumference of the circle.
 3.  Write a program to create a Book class with attributes title, author, and price. Add a method to display the book details.
 -----------------------------------------------------------------------------------------
+
 Date:31/01/2025
 Topic: Constructors,Instance vs. Class Variables and Methods, Access Modifiers
 
@@ -516,5 +518,4 @@ Final:
 Use a final variable patientID to uniquely identify each patient.
 Instanceof:
 Check if an object is an instance of the Patient class before displaying its details.
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
