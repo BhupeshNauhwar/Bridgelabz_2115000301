@@ -346,7 +346,8 @@ Hint: Use DateTimeFormatter with custom patterns for date formatting.
 4. Problem 4: Date Comparison Write a program that:
 ➢ Takes two date inputs and compares them to check if the first date is before, after,
 or the same as the second date.
-Hint: Use isBefore(), isAfter(), and isEqual() methods from the LocalDate
+Hint: Use isBefore(), isAfter(), and isEqual() methods from the LocalDate  
+
 ========================================================================================================
 Date:30-01-2025
 Topic:Class and Objects
@@ -428,3 +429,94 @@ salary (private).
 Write methods to:
 Modify salary using a public method.
 Create a subclass Manager to access employeeID and department.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Date:3/2/2025
+Topic:Static,This,Final,Instanceof 
+
+1. Bank Account System
+Create a BankAccount class with the following features:
+Static:
+A static variable bankName shared across all accounts.
+A static method getTotalAccounts() to display the total number of accounts.
+This:
+Use this to resolve ambiguity in the constructor when initializing accountHolderName and accountNumber.
+Final:
+Use a final variable accountNumber to ensure it cannot be changed once assigned.
+Instanceof:
+Check if an account object is an instance of the BankAccount class before displaying its details.
+
+2. Library Management System
+Create a Book class to manage library books with the following features:
+Static:
+A static variable libraryName shared across all books.
+A static method displayLibraryName() to print the library name.
+This:
+Use this to initialize title, author, and isbn in the constructor.
+Final:
+Use a final variable isbn to ensure the unique identifier of a book cannot be changed.
+Instanceof:
+Verify if an object is an instance of the Book class before displaying its details.
+
+3. Employee Management System
+Design an Employee class with the following features:
+Static:
+A static variable companyName shared by all employees.
+A static method displayTotalEmployees() to show the total number of employees.
+This:
+Use this to initialize name, id, and designation in the constructor.
+Final:
+Use a final variable id for the employee ID, which cannot be modified after assignment.
+Instanceof:
+Check if a given object is an instance of the Employee class before printing the employee details.
+
+4. Shopping Cart System
+Create a Product class to manage shopping cart items with the following features:
+Static:
+A static variable discount shared by all products.
+A static method updateDiscount() to modify the discount percentage.
+This:
+Use this to initialize productName, price, and quantity in the constructor.
+Final:
+Use a final variable productID to ensure each product has a unique identifier that cannot be changed.
+Instanceof:
+Validate whether an object is an instance of the Product class before processing its details.
+
+5. University Student Management
+Create a Student class to manage student data with the following features:
+Static:
+A static variable universityName shared across all students.
+A static method displayTotalStudents() to show the number of students enrolled.
+This:
+Use this in the constructor to initialize name, rollNumber, and grade.
+Final:
+Use a final variable rollNumber for each student that cannot be changed.
+Instanceof:
+Check if a given object is an instance of the Student class before performing operations like displaying or updating grades.
+
+6. Vehicle Registration System
+Create a Vehicle class with the following features:
+Static:
+A static variable registrationFee common for all vehicles.
+A static method updateRegistrationFee() to modify the fee.
+This:
+Use this to initialize ownerName, vehicleType, and registrationNumber in the constructor.
+Final:
+Use a final variable registrationNumber to uniquely identify each vehicle.
+Instanceof:
+Check if an object belongs to the Vehicle class before displaying its registration details.
+
+7. Hospital Management System
+Create a Patient class with the following features:
+Static:
+A static variable hospitalName shared among all patients.
+A static method getTotalPatients() to count the total patients admitted.
+This:
+Use this to initialize name, age, and ailment in the constructor.
+Final:
+Use a final variable patientID to uniquely identify each patient.
+Instanceof:
+Check if an object is an instance of the Patient class before displaying its details.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
