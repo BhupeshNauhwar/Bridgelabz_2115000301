@@ -1,0 +1,16 @@
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+
+public class ConvertJsonToXml {
+    public static void main(String[] args) throws Exception {
+        String json = "{\"name\":\"Alice\",\"age\":30}";
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        JsonNode jsonNode = objectMapper.readTree(json);
+
+        XmlMapper xmlMapper = new XmlMapper();
+        String xml = xmlMapper.writeValueAsString(jsonNode);
+        System.out.println(xml);
+    }
+}
